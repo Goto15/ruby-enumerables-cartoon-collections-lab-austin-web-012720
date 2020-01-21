@@ -20,6 +20,7 @@ def find_the_cheese(array)
   for each in array
     if cheese_types.include?(each)
       cheese = each
+      break
     end
   end
   
